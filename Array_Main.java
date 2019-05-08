@@ -1,18 +1,20 @@
 package arrayList;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Array_Main {
-
+	
+	static Scanner scan = new Scanner(System.in);
+	
+	ArrayList<String> students = new ArrayList<>();
+	int selNum = 0;
+	int EXIT = 0;
+	
 	public static void main(String[] args) {
-		
-		System.out.println("성적 관리 프로그램");
-		System.out.println("번호를 눌러 수행할 작업을 선택하세요.");
-		System.out.println("1. ");
-		
-		
+
+		System.out.printf(" 1. 학생 추가\n 2. 석차 검색\n 3. 성적 출력\n "
+				+ "4. 파일 불러오기\n 5. 입력한 데이터 저장 후 종료\n >>");
 
 	}
 
